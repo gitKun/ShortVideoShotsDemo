@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585A26754DF13437F6C7E10B /* libPods-类似于微信短视频的拍摄.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4199C9BA4555EA18700AD9 /* libPods-类似于微信短视频的拍摄.a */; };
+		A1173BEC20D2675B00A51B2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173BEB20D2675B00A51B2A /* AppDelegate.m */; };
+		A1173BEF20D2675B00A51B2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173BEE20D2675B00A51B2A /* ViewController.m */; };
+		A1173BF220D2675B00A51B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1173BF020D2675B00A51B2A /* Main.storyboard */; };
+		A1173BF420D2675D00A51B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1173BF320D2675D00A51B2A /* Assets.xcassets */; };
+		A1173BF720D2675D00A51B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1173BF520D2675D00A51B2A /* LaunchScreen.storyboard */; };
+		A1173BFA20D2675D00A51B2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173BF920D2675D00A51B2A /* main.m */; };
+		A1173CAE20D26B3300A51B2A /* JoyMediaRecordPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173C9220D26B3200A51B2A /* JoyMediaRecordPlay.m */; };
+		A1173CAF20D26B3300A51B2A /* JoyProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173C9320D26B3200A51B2A /* JoyProgressView.m */; };
+		A1173CB020D26B3300A51B2A /* LW_StartRecordVideo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9520D26B3200A51B2A /* LW_StartRecordVideo@3x.png */; };
+		A1173CB120D26B3300A51B2A /* LW_StartRecordVideo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9620D26B3200A51B2A /* LW_StartRecordVideo@2x.png */; };
+		A1173CB220D26B3300A51B2A /* LW_PhotoLibruary.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9720D26B3200A51B2A /* LW_PhotoLibruary.png */; };
+		A1173CB320D26B3300A51B2A /* trends_preview_video_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9820D26B3200A51B2A /* trends_preview_video_done@2x.png */; };
+		A1173CB420D26B3300A51B2A /* LW_CameraFocus.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9920D26B3200A51B2A /* LW_CameraFocus.png */; };
+		A1173CB520D26B3300A51B2A /* trends_ preview_video_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9A20D26B3200A51B2A /* trends_ preview_video_back@3x.png */; };
+		A1173CB620D26B3300A51B2A /* LW_SwitchCamera1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9B20D26B3200A51B2A /* LW_SwitchCamera1.png */; };
+		A1173CB720D26B3300A51B2A /* trends_ preview_video_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9C20D26B3200A51B2A /* trends_ preview_video_back@2x.png */; };
+		A1173CB820D26B3300A51B2A /* LW_Video_FlashLight.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9D20D26B3200A51B2A /* LW_Video_FlashLight.png */; };
+		A1173CB920D26B3300A51B2A /* trends_preview_video_done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9E20D26B3200A51B2A /* trends_preview_video_done@3x.png */; };
+		A1173CBA20D26B3300A51B2A /* LW_Video_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173C9F20D26B3200A51B2A /* LW_Video_Down.png */; };
+		A1173CBB20D26B3300A51B2A /* LW_SwitchCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = A1173CA020D26B3200A51B2A /* LW_SwitchCamera.png */; };
+		A1173CBC20D26B3300A51B2A /* JoyRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173CA120D26B3200A51B2A /* JoyRecordView.m */; };
+		A1173CBD20D26B3300A51B2A /* UIView+JKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173CA520D26B3200A51B2A /* UIView+JKFrame.m */; };
+		A1173CBE20D26B3300A51B2A /* CAAnimation+HCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173CA620D26B3200A51B2A /* CAAnimation+HCAnimation.m */; };
+		A1173CBF20D26B3300A51B2A /* CALayer+JoyLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173CA720D26B3200A51B2A /* CALayer+JoyLayer.m */; };
+		A1173CC020D26B3300A51B2A /* JoyCoreMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173CAD20D26B3200A51B2A /* JoyCoreMotion.m */; };
+		A1173CC320D26BCF00A51B2A /* UIWindow+JKHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1173CC220D26BCF00A51B2A /* UIWindow+JKHierarchy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1173BE720D2675B00A51B2A /* 类似于微信短视频的拍摄.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "类似于微信短视频的拍摄.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1173BEA20D2675B00A51B2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1173BEB20D2675B00A51B2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1173BED20D2675B00A51B2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1173BEE20D2675B00A51B2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1173BF120D2675B00A51B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1173BF320D2675D00A51B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1173BF620D2675D00A51B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1173BF820D2675D00A51B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1173BF920D2675D00A51B2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1173C9220D26B3200A51B2A /* JoyMediaRecordPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyMediaRecordPlay.m; sourceTree = "<group>"; };
+		A1173C9320D26B3200A51B2A /* JoyProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyProgressView.m; sourceTree = "<group>"; };
+		A1173C9520D26B3200A51B2A /* LW_StartRecordVideo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LW_StartRecordVideo@3x.png"; sourceTree = "<group>"; };
+		A1173C9620D26B3200A51B2A /* LW_StartRecordVideo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LW_StartRecordVideo@2x.png"; sourceTree = "<group>"; };
+		A1173C9720D26B3200A51B2A /* LW_PhotoLibruary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_PhotoLibruary.png; sourceTree = "<group>"; };
+		A1173C9820D26B3200A51B2A /* trends_preview_video_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_preview_video_done@2x.png"; sourceTree = "<group>"; };
+		A1173C9920D26B3200A51B2A /* LW_CameraFocus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_CameraFocus.png; sourceTree = "<group>"; };
+		A1173C9A20D26B3200A51B2A /* trends_ preview_video_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_ preview_video_back@3x.png"; sourceTree = "<group>"; };
+		A1173C9B20D26B3200A51B2A /* LW_SwitchCamera1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_SwitchCamera1.png; sourceTree = "<group>"; };
+		A1173C9C20D26B3200A51B2A /* trends_ preview_video_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_ preview_video_back@2x.png"; sourceTree = "<group>"; };
+		A1173C9D20D26B3200A51B2A /* LW_Video_FlashLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_Video_FlashLight.png; sourceTree = "<group>"; };
+		A1173C9E20D26B3200A51B2A /* trends_preview_video_done@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trends_preview_video_done@3x.png"; sourceTree = "<group>"; };
+		A1173C9F20D26B3200A51B2A /* LW_Video_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_Video_Down.png; sourceTree = "<group>"; };
+		A1173CA020D26B3200A51B2A /* LW_SwitchCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LW_SwitchCamera.png; sourceTree = "<group>"; };
+		A1173CA120D26B3200A51B2A /* JoyRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyRecordView.m; sourceTree = "<group>"; };
+		A1173CA320D26B3200A51B2A /* CAAnimation+HCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+HCAnimation.h"; sourceTree = "<group>"; };
+		A1173CA420D26B3200A51B2A /* CALayer+JoyLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JoyLayer.h"; sourceTree = "<group>"; };
+		A1173CA520D26B3200A51B2A /* UIView+JKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKFrame.m"; sourceTree = "<group>"; };
+		A1173CA620D26B3200A51B2A /* CAAnimation+HCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+HCAnimation.m"; sourceTree = "<group>"; };
+		A1173CA720D26B3200A51B2A /* CALayer+JoyLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JoyLayer.m"; sourceTree = "<group>"; };
+		A1173CA820D26B3200A51B2A /* UIView+JKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKFrame.h"; sourceTree = "<group>"; };
+		A1173CA920D26B3200A51B2A /* JoyCoreMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyCoreMotion.h; sourceTree = "<group>"; };
+		A1173CAA20D26B3200A51B2A /* JoyMediaRecordPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyMediaRecordPlay.h; sourceTree = "<group>"; };
+		A1173CAB20D26B3200A51B2A /* JoyProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyProgressView.h; sourceTree = "<group>"; };
+		A1173CAC20D26B3200A51B2A /* JoyRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyRecordView.h; sourceTree = "<group>"; };
+		A1173CAD20D26B3200A51B2A /* JoyCoreMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyCoreMotion.m; sourceTree = "<group>"; };
+		A1173CC120D26BCF00A51B2A /* UIWindow+JKHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JKHierarchy.h"; sourceTree = "<group>"; };
+		A1173CC220D26BCF00A51B2A /* UIWindow+JKHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JKHierarchy.m"; sourceTree = "<group>"; };
+		C73BFC96F0A8049E4BCB3298 /* Pods-类似于微信短视频的拍摄.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-类似于微信短视频的拍摄.debug.xcconfig"; path = "Pods/Target Support Files/Pods-类似于微信短视频的拍摄/Pods-类似于微信短视频的拍摄.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4199C9BA4555EA18700AD9 /* libPods-类似于微信短视频的拍摄.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-类似于微信短视频的拍摄.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50746BD3BF04C02DE4D4B7F /* Pods-类似于微信短视频的拍摄.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-类似于微信短视频的拍摄.release.xcconfig"; path = "Pods/Target Support Files/Pods-类似于微信短视频的拍摄/Pods-类似于微信短视频的拍摄.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1173BE420D2675B00A51B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A26754DF13437F6C7E10B /* libPods-类似于微信短视频的拍摄.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1173BDE20D2675B00A51B2A = {
+			isa = PBXGroup;
+			children = (
+				A1173BE920D2675B00A51B2A /* 类似于微信短视频的拍摄 */,
+				A1173BE820D2675B00A51B2A /* Products */,
+				BB03CBD43AF08A77CF0F7096 /* Pods */,
+				A9FFDA6755DA9371654FC02F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1173BE820D2675B00A51B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1173BE720D2675B00A51B2A /* 类似于微信短视频的拍摄.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1173BE920D2675B00A51B2A /* 类似于微信短视频的拍摄 */ = {
+			isa = PBXGroup;
+			children = (
+				A1173BEA20D2675B00A51B2A /* AppDelegate.h */,
+				A1173BEB20D2675B00A51B2A /* AppDelegate.m */,
+				A1173BED20D2675B00A51B2A /* ViewController.h */,
+				A1173BEE20D2675B00A51B2A /* ViewController.m */,
+				A1173C0020D2677000A51B2A /* Class */,
+				A1173BF020D2675B00A51B2A /* Main.storyboard */,
+				A1173BF320D2675D00A51B2A /* Assets.xcassets */,
+				A1173BF520D2675D00A51B2A /* LaunchScreen.storyboard */,
+				A1173BF820D2675D00A51B2A /* Info.plist */,
+				A1173BF920D2675D00A51B2A /* main.m */,
+			);
+			path = "类似于微信短视频的拍摄";
+			sourceTree = "<group>";
+		};
+		A1173C0020D2677000A51B2A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A1173C9120D26B3200A51B2A /* PPRecordVideo_DR */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A1173C9120D26B3200A51B2A /* PPRecordVideo_DR */ = {
+			isa = PBXGroup;
+			children = (
+				A1173C9420D26B3200A51B2A /* imageSources */,
+				A1173CA220D26B3200A51B2A /* JoyTools_DR */,
+				A1173CA920D26B3200A51B2A /* JoyCoreMotion.h */,
+				A1173CAD20D26B3200A51B2A /* JoyCoreMotion.m */,
+				A1173CAA20D26B3200A51B2A /* JoyMediaRecordPlay.h */,
+				A1173C9220D26B3200A51B2A /* JoyMediaRecordPlay.m */,
+				A1173CAB20D26B3200A51B2A /* JoyProgressView.h */,
+				A1173C9320D26B3200A51B2A /* JoyProgressView.m */,
+				A1173CAC20D26B3200A51B2A /* JoyRecordView.h */,
+				A1173CA120D26B3200A51B2A /* JoyRecordView.m */,
+			);
+			path = PPRecordVideo_DR;
+			sourceTree = "<group>";
+		};
+		A1173C9420D26B3200A51B2A /* imageSources */ = {
+			isa = PBXGroup;
+			children = (
+				A1173C9520D26B3200A51B2A /* LW_StartRecordVideo@3x.png */,
+				A1173C9620D26B3200A51B2A /* LW_StartRecordVideo@2x.png */,
+				A1173C9720D26B3200A51B2A /* LW_PhotoLibruary.png */,
+				A1173C9820D26B3200A51B2A /* trends_preview_video_done@2x.png */,
+				A1173C9920D26B3200A51B2A /* LW_CameraFocus.png */,
+				A1173C9A20D26B3200A51B2A /* trends_ preview_video_back@3x.png */,
+				A1173C9B20D26B3200A51B2A /* LW_SwitchCamera1.png */,
+				A1173C9C20D26B3200A51B2A /* trends_ preview_video_back@2x.png */,
+				A1173C9D20D26B3200A51B2A /* LW_Video_FlashLight.png */,
+				A1173C9E20D26B3200A51B2A /* trends_preview_video_done@3x.png */,
+				A1173C9F20D26B3200A51B2A /* LW_Video_Down.png */,
+				A1173CA020D26B3200A51B2A /* LW_SwitchCamera.png */,
+			);
+			path = imageSources;
+			sourceTree = "<group>";
+		};
+		A1173CA220D26B3200A51B2A /* JoyTools_DR */ = {
+			isa = PBXGroup;
+			children = (
+				A1173CC120D26BCF00A51B2A /* UIWindow+JKHierarchy.h */,
+				A1173CC220D26BCF00A51B2A /* UIWindow+JKHierarchy.m */,
+				A1173CA320D26B3200A51B2A /* CAAnimation+HCAnimation.h */,
+				A1173CA420D26B3200A51B2A /* CALayer+JoyLayer.h */,
+				A1173CA520D26B3200A51B2A /* UIView+JKFrame.m */,
+				A1173CA620D26B3200A51B2A /* CAAnimation+HCAnimation.m */,
+				A1173CA720D26B3200A51B2A /* CALayer+JoyLayer.m */,
+				A1173CA820D26B3200A51B2A /* UIView+JKFrame.h */,
+			);
+			path = JoyTools_DR;
+			sourceTree = "<group>";
+		};
+		A9FFDA6755DA9371654FC02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4199C9BA4555EA18700AD9 /* libPods-类似于微信短视频的拍摄.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB03CBD43AF08A77CF0F7096 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C73BFC96F0A8049E4BCB3298 /* Pods-类似于微信短视频的拍摄.debug.xcconfig */,
+				F50746BD3BF04C02DE4D4B7F /* Pods-类似于微信短视频的拍摄.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1173BE620D2675B00A51B2A /* 类似于微信短视频的拍摄 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1173BFD20D2675D00A51B2A /* Build configuration list for PBXNativeTarget "类似于微信短视频的拍摄" */;
+			buildPhases = (
+				A67CE39C3B32C86ECD50C5E5 /* [CP] Check Pods Manifest.lock */,
+				A1173BE320D2675B00A51B2A /* Sources */,
+				A1173BE420D2675B00A51B2A /* Frameworks */,
+				A1173BE520D2675B00A51B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类似于微信短视频的拍摄";
+			productName = "类似于微信短视频的拍摄";
+			productReference = A1173BE720D2675B00A51B2A /* 类似于微信短视频的拍摄.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1173BDF20D2675B00A51B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DR_Kun;
+				TargetAttributes = {
+					A1173BE620D2675B00A51B2A = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = A1173BE220D2675B00A51B2A /* Build configuration list for PBXProject "类似于微信短视频的拍摄" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1173BDE20D2675B00A51B2A;
+			productRefGroup = A1173BE820D2675B00A51B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1173BE620D2675B00A51B2A /* 类似于微信短视频的拍摄 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1173BE520D2675B00A51B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1173CB420D26B3300A51B2A /* LW_CameraFocus.png in Resources */,
+				A1173CB620D26B3300A51B2A /* LW_SwitchCamera1.png in Resources */,
+				A1173CB520D26B3300A51B2A /* trends_ preview_video_back@3x.png in Resources */,
+				A1173BF720D2675D00A51B2A /* LaunchScreen.storyboard in Resources */,
+				A1173CBA20D26B3300A51B2A /* LW_Video_Down.png in Resources */,
+				A1173CB920D26B3300A51B2A /* trends_preview_video_done@3x.png in Resources */,
+				A1173BF420D2675D00A51B2A /* Assets.xcassets in Resources */,
+				A1173CB720D26B3300A51B2A /* trends_ preview_video_back@2x.png in Resources */,
+				A1173CB120D26B3300A51B2A /* LW_StartRecordVideo@2x.png in Resources */,
+				A1173CB020D26B3300A51B2A /* LW_StartRecordVideo@3x.png in Resources */,
+				A1173CB820D26B3300A51B2A /* LW_Video_FlashLight.png in Resources */,
+				A1173CB320D26B3300A51B2A /* trends_preview_video_done@2x.png in Resources */,
+				A1173BF220D2675B00A51B2A /* Main.storyboard in Resources */,
+				A1173CB220D26B3300A51B2A /* LW_PhotoLibruary.png in Resources */,
+				A1173CBB20D26B3300A51B2A /* LW_SwitchCamera.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A67CE39C3B32C86ECD50C5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-类似于微信短视频的拍摄-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1173BE320D2675B00A51B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1173CC320D26BCF00A51B2A /* UIWindow+JKHierarchy.m in Sources */,
+				A1173BEF20D2675B00A51B2A /* ViewController.m in Sources */,
+				A1173CBF20D26B3300A51B2A /* CALayer+JoyLayer.m in Sources */,
+				A1173CBD20D26B3300A51B2A /* UIView+JKFrame.m in Sources */,
+				A1173BFA20D2675D00A51B2A /* main.m in Sources */,
+				A1173CAE20D26B3300A51B2A /* JoyMediaRecordPlay.m in Sources */,
+				A1173CAF20D26B3300A51B2A /* JoyProgressView.m in Sources */,
+				A1173CBC20D26B3300A51B2A /* JoyRecordView.m in Sources */,
+				A1173CC020D26B3300A51B2A /* JoyCoreMotion.m in Sources */,
+				A1173CBE20D26B3300A51B2A /* CAAnimation+HCAnimation.m in Sources */,
+				A1173BEC20D2675B00A51B2A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1173BF020D2675B00A51B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1173BF120D2675B00A51B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1173BF520D2675D00A51B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1173BF620D2675D00A51B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1173BFB20D2675D00A51B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1173BFC20D2675D00A51B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1173BFE20D2675D00A51B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73BFC96F0A8049E4BCB3298 /* Pods-类似于微信短视频的拍摄.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J437U9AE67;
+				INFOPLIST_FILE = "类似于微信短视频的拍摄/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kun.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1173BFF20D2675D00A51B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50746BD3BF04C02DE4D4B7F /* Pods-类似于微信短视频的拍摄.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J437U9AE67;
+				INFOPLIST_FILE = "类似于微信短视频的拍摄/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kun.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1173BE220D2675B00A51B2A /* Build configuration list for PBXProject "类似于微信短视频的拍摄" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1173BFB20D2675D00A51B2A /* Debug */,
+				A1173BFC20D2675D00A51B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1173BFD20D2675D00A51B2A /* Build configuration list for PBXNativeTarget "类似于微信短视频的拍摄" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1173BFE20D2675D00A51B2A /* Debug */,
+				A1173BFF20D2675D00A51B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1173BDF20D2675B00A51B2A /* Project object */;
+}
